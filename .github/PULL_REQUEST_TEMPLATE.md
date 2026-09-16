@@ -1,7 +1,5 @@
 ## Summary
 
-Describe what changed and why.
-
 ## Affected areas
 
 - [ ] Child theme
