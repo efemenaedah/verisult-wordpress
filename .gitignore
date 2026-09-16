@@ -1,0 +1,44 @@
+# WordPress configuration and secrets
+wp-config.php
+.env
+.env.*
+!.env.example
+
+# User-generated and runtime content
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backups/
+wp-content/ai1wm-backups/
+wp-content/updraft/
+
+# Database exports and archives
+*.sql
+*.sql.gz
+*.zip
+*.tar
+*.tar.gz
+
+# Logs and temporary files
+*.log
+error_log
+*.tmp
+
+# Dependencies and build output
+node_modules/
+vendor/
+dist/
+
+# Local development
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Commercial and third-party packages
+wp-content/themes/astra/
+wp-content/themes/upstudy/
+wp-content/plugins/elementor/
+wp-content/plugins/elementor-pro/
+wp-content/plugins/thrive-*/
+
