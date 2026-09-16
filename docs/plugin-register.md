@@ -1,6 +1,5 @@
 # Plugin and Theme Register
 
-This register documents known project components. It is not an instruction to install every item. Confirm purpose, licence, compatibility and active use before installation or removal.
 
 | Component | Role | Notes |
 | --- | --- | --- |
@@ -19,13 +18,4 @@ This register documents known project components. It is not an instruction to in
 | Zoom integration | Online delivery support | Confirm account connection and meeting permissions |
 | UpdraftPlus | Backup and recovery | Test restoration periodically |
 | WP Staging | Staging environment | Keep redesign isolated from production |
-
-## Review questions
-
-- Is this component active and used by a live page?
-- Does another component perform the same job?
-- Is the licence current?
-- Is the installed version compatible with the current WordPress and PHP versions?
-- Is it included in backups?
-- Does it store credentials or personal data requiring extra protection?
 
