@@ -1,0 +1,52 @@
+:root {
+  --verisult-primary: #064a2c;
+  --verisult-accent: #f15a0a;
+  --verisult-text: #1f2933;
+  --verisult-muted: #5f6b76;
+  --verisult-surface: #ffffff;
+  --verisult-surface-soft: #f5f8f6;
+  --verisult-border: #dce5df;
+  --verisult-radius: 16px;
+  --verisult-shadow: 0 14px 34px rgba(6, 74, 44, 0.1);
+  --verisult-content-width: 1200px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--verisult-text);
+}
+
+:where(a, button, input, select, textarea):focus-visible {
+  outline: 3px solid var(--verisult-accent);
+  outline-offset: 3px;
+}
+
+.verisult-container {
+  width: min(100% - 2rem, var(--verisult-content-width));
+  margin-inline: auto;
+}
+
+.verisult-card {
+  border: 1px solid var(--verisult-border);
+  border-radius: var(--verisult-radius);
+  background: var(--verisult-surface);
+  box-shadow: var(--verisult-shadow);
+}
+
+.verisult-button,
+.elementor-button.verisult-button {
+  border-radius: 999px;
+  background: var(--verisult-accent);
+  color: #ffffff;
+  font-weight: 700;
+}
+
+@media (max-width: 767px) {
+  .verisult-container {
+    width: min(100% - 1.25rem, var(--verisult-content-width));
+  }
+}
+
